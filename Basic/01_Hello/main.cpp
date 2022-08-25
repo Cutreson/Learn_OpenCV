@@ -1,3 +1,5 @@
+//Histogram
+//#include <opencv2/core.hpp>
 #include <opencv2/opencv.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -7,7 +9,7 @@ using namespace cv;
 using namespace std;
 int main()
 {
-	Mat src = imread("C:/Users/Cutreson/Desktop/Learn_OpenCV/Basic/image.jpg");
+	Mat src = imread("C:/Users/dinhh/Desktop/Learn_OpenCV/Basic/image.jpg");
 	vector<Mat> img_rgb;
 	Mat img_r, img_g, img_b;
 
