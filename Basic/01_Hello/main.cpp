@@ -9,11 +9,11 @@ using namespace cv;
 using namespace std;
 int main()
 {
-	Mat src = imread("C:/Users/dinhh/Desktop/Learn_OpenCV/Basic/image.jpg");
+	Mat src = imread("D:/Learn_OpenCV/Basic/image.jpg");
 	vector<Mat> img_rgb;
 	Mat img_r, img_g, img_b;
 
-	int w = 400, h = 400;
+	int w = 350, h = 350;
 	int size_hist = 225;
 	float range[] = { 0, 255 };
 	const float* hist_range = { range };
